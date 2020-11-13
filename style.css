@@ -3,18 +3,27 @@ html {
 }
 
 .body {
-    margin: 0;
+    /* margin: 0; */
     display: flex;
 }
 
 .header {
-    height: 100vh;
-    background-color: #f2f2f2;
-    padding: 2rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    padding: 0 2rem;
     /* width: 30px; */
 }
 
+.main {
+    padding-left: 18rem;
+}
+
 .h1 {
+    color: #004f8e;
+    text-align: center;
     font-size: 3.2rem;
 }
 
@@ -38,7 +47,8 @@ html {
 .nav__link-item {
     display: block;
     margin-top: 1rem;
-    color: gray;
+    color: #2196F3;
+    text-decoration: none;
 }
 
 .nav__item {
