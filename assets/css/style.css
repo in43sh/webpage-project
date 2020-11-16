@@ -23,6 +23,11 @@ html {
     padding: 0 2rem;
 }
 
+.img {
+    width: 500px; 
+    height: auto;
+}
+
 .main {
     padding-left: 18rem;
 }
